@@ -2,7 +2,7 @@
 FROM quay.io/redhattraining/httpd-parent
 
 # Added lines
-EXPSOE 8080
+EXPOSE 8080
 
 LABEL io.openshift.expsoe-services="8080:http"
 
